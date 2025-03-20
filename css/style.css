@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Prompt", sans-serif;
+}
+header{
+    background-color: black;
+    border-radius: 10px;
+    width: 1900px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    font-size: 19px;
+}
+nav img{
+    width: 250px;
+}
+nav a{
+    text-decoration: none;
+    text-shadow: 16px;
+    color: white;
+
+}
+.card{
+    margin: 50px;
+    width: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #424242;
+    background-image: url(https://cdn2.unrealengine.com/ecosystem-w-fn-1920x1080-6d0b8c3e74ff.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    text-align: center;
+    background-color: #4d4d4d;
+}
+.card p{
+    color: white;
+    text-shadow: 1px 5px 10px #4d4d4d;
+    padding: 20px;
+}
+.card h1{
+    color: white;
+    text-shadow: 1px 5px 10px #4d4d4d;
+    padding: 20px;
+}
